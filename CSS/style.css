@@ -1,0 +1,360 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+
+	body {
+		background: url(../cover.jpg);
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	#mainContainer {
+		width: 100%;
+		height: 50px;
+		margin: auto;
+		margin-top: 30px;
+		background: rgba(113, 128, 147,0.6);
+	}
+
+	#mainContainer h1 {
+		color: #f5f6fa;
+		text-align: center; 
+		padding: 7px;
+	}
+
+	#foodContainer {
+		height: 600px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#food1 {
+		width: 31.5%;
+		height: 61%;
+		margin-top: 25px;
+		margin-left: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside1 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #fbc531;
+	}
+
+	.inside1 h1 {
+		text-align: center;
+		padding: 10px;
+	}
+
+	.text1 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food2 {
+		width: 31.5%;
+		height: 61%;
+		margin-left: 15px;
+		margin-top: 25px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside2 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #eb2f06;
+	}
+
+	.inside2 h1 {
+		text-align: center;
+		color: white;
+		padding: 10px;
+	}
+
+	.text2 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food3 {
+		width: 31.5%;
+		height: 61%;
+		margin-left: 15px;
+		margin-top: 25px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside3 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #0652DD;
+	}
+
+	.inside3 h1 {
+		text-align: center;
+		padding: 10px;
+		color: white;
+	}
+
+	.text3 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+		background: url(../cover.jpg);
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	#mainContainer {
+		width: 100%;
+		height: 50px;
+		margin: auto;
+		margin-top: 30px;
+		background: rgba(113, 128, 147,0.6);
+	}
+
+	#mainContainer h1 {
+		color: #f5f6fa;
+		text-align: center; 
+		padding: 7px;
+	}
+
+	#foodContainer {
+		height: 600px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#food1 {
+		width: 47%;
+		height: 325px;
+		margin-left: 15px;
+		margin-top: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside1 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #fbc531;
+	}
+
+	.inside1 h1 {
+		text-align: center;
+		padding: 10px;
+	}
+
+	.text1 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food2 {
+		width: 47%;
+		height: 325px;
+		margin-left: 15px;
+		margin-top: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside2 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #eb2f06;
+	}
+
+	.inside2 h1 {
+		text-align: center;
+		color: white;
+		padding: 10px;
+	}
+
+	.text2 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food3 {
+		width: 96.3%;
+		height: 200px;
+		margin-left: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside3 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #0652DD;
+	}
+
+	.inside3 h1 {
+		text-align: center;
+		padding: 10px;
+		color: white;
+	}
+
+	.text3 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	body {
+		height: 100%;
+		background: url(../cover.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	#mainContainer {
+		width: 100%;
+		height: 50px;
+		margin: auto;
+		margin-top: 30px;
+		background: rgba(113, 128, 147,0.6);
+	}
+
+	#mainContainer h1 {
+		color: #f5f6fa;
+		text-align: center; 
+		padding: 7px;
+	}
+
+	#foodContainer {
+		width: 100%;
+		height: 600px;
+	}
+
+	#food1 {
+		width: 95%;
+		height: 35%;
+		margin-left: 15px;
+		margin-top: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside1 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #fbc531;
+	}
+
+	.inside1 h1 {
+		text-align: center;
+		padding: 10px;
+	}
+
+	.text1 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food2 {
+		width: 95%;
+		height: 35%;
+		margin-left: 15px;
+		margin-top: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside2 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #eb2f06;
+	}
+
+	.inside2 h1 {
+		text-align: center;
+		color: white;
+		padding: 10px;
+	}
+
+	.text2 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+
+	#food3 {
+		width: 95%;
+		height: 50%;
+		margin-left: 15px;
+		margin-top: 15px;
+		border: 1px solid white;
+		background: rgba(170, 166, 157,0.2);
+	}
+
+	.inside3 {
+		width: 150px;
+		height: 60px;
+		border: 1px solid black;
+		float: right;
+		background: #0652DD;
+	}
+
+	.inside3 h1 {
+		text-align: center;
+		padding: 10px;
+		color: white;
+	}
+
+	.text3 {
+		float: left;
+		color: white;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+}
